@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Inventory\Scripts\Items\EquipmentEffect.js">
+    <Files>
+      <File FileName="Assets\Inventory\Scripts\Items\EquipmentEffect.js" Line="59" Column="3" />
+      <File FileName="Assets\colors\MES SCRIPTS\PlayerStat.cs" Line="36" Column="3" />
+      <File FileName="Assets\colors\MES SCRIPTS\AdvancedAI.js" Line="26" Column="1" />
+      <File FileName="Assets\Standard Assets\Characters\FirstPersonCharacter\Scripts\FirstPersonController.cs" Line="112" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
