@@ -1,17 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
-using System.Security.Cryptography;
 
-public class BossAI : MonoBehaviour {
-
+public class perenoelIA : MonoBehaviour {
 	public Transform cible;
 	public int moveSpeed = 1;
 	public int rotationSpeed = 1;
-	public float lookAtDistance = 5f;
+	public float lookAtDistance = 20f;
 	public int minDistance = 7;
-	public float attackRepeatTime = 1.2f;
-	public int[] dammagesDesDiversesAttaques;
-
 
 	PlayerStat ptain;
 	private Transform target;
@@ -19,13 +14,14 @@ public class BossAI : MonoBehaviour {
 	private string nb;
 	private float Distance;
 	private Transform myTransform;
+	public bool ok;
 
 
 	void Awake()
 	{
+		ok = false;
 		myTransform = transform;
 	}
-
 
 	void Start () 
 	{
@@ -40,7 +36,6 @@ public class BossAI : MonoBehaviour {
 	void Update () 
 	{
 		Distance = Vector3.Distance(target.position, myTransform.position);
-
 		if (Distance <= lookAtDistance) 
 		{
 			Debug.DrawLine (target.position, myTransform.position);
@@ -49,40 +44,18 @@ public class BossAI : MonoBehaviour {
 			if (Distance > minDistance) 
 			{
 				myTransform.position += myTransform.forward * moveSpeed * Time.deltaTime;
-				gameObject.GetComponent<Animation>().Play ("run");
+				gameObject.GetComponent<Animation>().Play ("walkforward");
 			} 
 			if (Distance <= minDistance) {
-				attack ();
+				gameObject.GetComponent<Animation>().Play ("roar");
+				//attack ();
 			}
 		}
 		else
 		{
-			gameObject.GetComponent<Animation>().Play ("Idle");
-
-		}
-	}
-
-	void attack()
-	{
-		if (Time.time > attackTime) 
-		{
-			string nb = ((int)Random.Range (1, 4)).ToString ();
-			gameObject.GetComponent<Animation> ().Play ("attack" + nb);
-			attackTime = Time.time + attackRepeatTime;
-
-			switch (nb) 
+			if (ok) 
 			{
-			case "1":
-				ptain.ApplyDammage (dammagesDesDiversesAttaques [0]);
-				break;
-			case "2":
-				ptain.ApplyDammage (dammagesDesDiversesAttaques [1]);
-				break;
-			case "3":
-				ptain.ApplyDammage (dammagesDesDiversesAttaques [2]);
-				break;
-			default:
-				break;
+				gameObject.GetComponent<Animation>().Play ("Idle");
 			}
 		}
 	}

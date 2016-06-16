@@ -3,7 +3,7 @@ guid: dfa9dd007e9fedc4b869bfd63bb3b284
 timeCreated: 1446059246
 licenseType: Store
 ModelImporter:
-  serializedVersion: 18
+  serializedVersion: 19
   fileIDToRecycleName:
     100000: chest
     100002: chestcontrol
@@ -186,25 +186,26 @@ ModelImporter:
     400176: spinecontrol
     400178: tip
     4300000: mesh_1
-    7400000: creature1Idle
-    7400002: creature1walkforward
-    7400004: creature1walkright
-    7400006: creature1walkleft
-    7400008: creature1walkback
-    7400010: creature1run
-    7400012: creature1jump
-    7400014: creature1InAir
-    7400016: creature1Land
-    7400018: creature1roar
-    7400020: creature1Taunt
-    7400022: creature1Attack1
-    7400024: creature1Attack3
-    7400026: creature1Attack2
-    7400028: creature1GetHit
-    7400030: creature1Die
-    7400032: creature1Spawn
+    7400000: Idle
+    7400002: walkforward
+    7400004: walkright
+    7400006: walkleft
+    7400008: walkback
+    7400010: run
+    7400012: jump
+    7400014: InAir
+    7400016: Land
+    7400018: roar
+    7400020: Taunt
+    7400022: Attack1
+    7400024: Attack3
+    7400026: Attack2
+    7400028: GetHit
+    7400030: Die
+    7400032: Spawn
     7400034: allAnimations
     9500000: //RootNode
+    11100000: //RootNode
     13700000: mesh_1
   materials:
     importMaterials: 1
@@ -213,21 +214,22 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleRotations: 1
     optimizeGameObjects: 0
-    motionNodeName: 
+    motionNodeName: <Root Transform>
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
-      name: creature1Idle
+      name: Idle
       takeName: Main
       firstFrame: 0
       lastFrame: 58
@@ -236,6 +238,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -432,8 +435,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1walkforward
+      name: walkforward
       takeName: Main
       firstFrame: 61
       lastFrame: 89
@@ -442,6 +446,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -638,8 +643,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1walkright
+      name: walkright
       takeName: Main
       firstFrame: 92
       lastFrame: 120
@@ -648,6 +654,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -844,8 +851,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1walkleft
+      name: walkleft
       takeName: Main
       firstFrame: 123
       lastFrame: 151
@@ -854,6 +862,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1050,8 +1059,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1walkback
+      name: walkback
       takeName: Main
       firstFrame: 154
       lastFrame: 182
@@ -1060,6 +1070,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1256,8 +1267,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1run
+      name: run
       takeName: Main
       firstFrame: 185
       lastFrame: 213
@@ -1266,6 +1278,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1462,8 +1475,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1jump
+      name: jump
       takeName: Main
       firstFrame: 215
       lastFrame: 221
@@ -1472,6 +1486,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1668,8 +1683,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1InAir
+      name: InAir
       takeName: Main
       firstFrame: 221
       lastFrame: 238
@@ -1678,6 +1694,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -1874,8 +1891,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1Land
+      name: Land
       takeName: Main
       firstFrame: 239
       lastFrame: 249
@@ -1884,6 +1902,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2080,8 +2099,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1roar
+      name: roar
       takeName: Main
       firstFrame: 250
       lastFrame: 297
@@ -2090,6 +2110,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2286,8 +2307,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1Taunt
+      name: Taunt
       takeName: Main
       firstFrame: 297
       lastFrame: 330
@@ -2296,6 +2318,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2492,8 +2515,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1Attack1
+      name: Attack1
       takeName: Main
       firstFrame: 330
       lastFrame: 355
@@ -2502,6 +2526,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2698,8 +2723,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1Attack2
+      name: Attack2
       takeName: Main
       firstFrame: 355
       lastFrame: 396
@@ -2708,6 +2734,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -2904,8 +2931,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1Attack3
+      name: Attack3
       takeName: Main
       firstFrame: 396
       lastFrame: 420
@@ -2914,6 +2942,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3110,8 +3139,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1GetHit
+      name: GetHit
       takeName: Main
       firstFrame: 420
       lastFrame: 437
@@ -3120,6 +3150,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3316,8 +3347,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1Die
+      name: Die
       takeName: Main
       firstFrame: 437
       lastFrame: 464
@@ -3326,6 +3358,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3522,8 +3555,9 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: creature1Spawn
+      name: Spawn
       takeName: Main
       firstFrame: 468
       lastFrame: 520
@@ -3532,6 +3566,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -3728,6 +3763,7 @@ ModelImporter:
         weight: 1
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -3748,25 +3784,24 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []
     skeleton: []
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 1
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

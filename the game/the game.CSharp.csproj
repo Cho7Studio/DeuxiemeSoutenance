@@ -116,6 +116,7 @@
     <Compile Include="Assets\colors\MES SCRIPTS\endLabyrinthe.cs" />
     <Compile Include="Assets\colors\MES SCRIPTS\escape.cs" />
     <Compile Include="Assets\colors\MES SCRIPTS\zoneDegat.cs" />
+    <Compile Include="Assets\test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Inventory\Credits + C#.txt" />

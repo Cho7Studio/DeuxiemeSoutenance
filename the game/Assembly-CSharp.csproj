@@ -83,13 +83,16 @@
      <Compile Include="Assets\colors\MES SCRIPTS\ReseauNetworkManager.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\ShotEject.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\ZBulletMulti.cs" />
+     <Compile Include="Assets\colors\MES SCRIPTS\apparitionBoss.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\boddeath.cs" />
+     <Compile Include="Assets\colors\MES SCRIPTS\bouchecible.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\delockcursor.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\disparitionParticules.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\endLabyrinthe.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\escape.cs" />
+     <Compile Include="Assets\colors\MES SCRIPTS\perenoelIA.cs" />
+     <Compile Include="Assets\colors\MES SCRIPTS\perenoelhealth.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\zoneDegat.cs" />
-     <Compile Include="Assets\test.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
