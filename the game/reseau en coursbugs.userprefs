@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\colors\MES SCRIPTS\LaunchCourse.cs">
+    <Files>
+      <File FileName="Assets\colors\MES SCRIPTS\LaunchCourse.cs" Line="57" Column="4" />
+      <File FileName="Assets\colors\MES SCRIPTS\ControlPlayerNumber.cs" Line="14" Column="56" />
+      <File FileName="Assets\colors\MES SCRIPTS\ReseauNetworkManager.cs" Line="15" Column="1" />
+      <File FileName="Assets\colors\MES SCRIPTS\MainMenuScript.js" Line="4" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
