@@ -57,7 +57,7 @@ public class BossAI : MonoBehaviour {
 		}
 		else
 		{
-			gameObject.GetComponent<Animation>().Play ("Idle");
+			gameObject.GetComponent<Animation>().Play ("idle");
 
 		}
 	}

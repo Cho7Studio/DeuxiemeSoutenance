@@ -72,6 +72,9 @@
      <Compile Include="Assets\colors\MES SCRIPTS\CombatMulti.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\ControlPlayerNumber.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\ControleManadger.cs" />
+     <Compile Include="Assets\colors\MES SCRIPTS\EnemyHealth.cs" />
+     <Compile Include="Assets\colors\MES SCRIPTS\Fin.cs" />
+     <Compile Include="Assets\colors\MES SCRIPTS\IA.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\LaunchCourse.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\MovingPlatform.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\Munitions.cs" />
@@ -87,12 +90,16 @@
      <Compile Include="Assets\colors\MES SCRIPTS\boddeath.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\bouchecible.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\delockcursor.cs" />
+     <Compile Include="Assets\colors\MES SCRIPTS\destruction.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\disparitionParticules.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\endLabyrinthe.cs" />
+     <Compile Include="Assets\colors\MES SCRIPTS\enfonceplat.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\escape.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\perenoelIA.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\perenoelhealth.cs" />
+     <Compile Include="Assets\colors\MES SCRIPTS\tp.cs" />
      <Compile Include="Assets\colors\MES SCRIPTS\zoneDegat.cs" />
+     <Compile Include="Assets\mus.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
      <None Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
@@ -155,6 +162,7 @@
      <None Include="Assets\Old Armchair\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
      <None Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
  <Reference Include="UnityEngine.UI">

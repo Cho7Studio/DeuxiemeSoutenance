@@ -14,7 +14,6 @@ public class bouchecible : MonoBehaviour {
 		if (col.gameObject.tag == "cadal") 
 		{
 			vie.ApplyDammage (cadaldammage);
-			Debug.Log ("touché");
 		}
 	}
 }

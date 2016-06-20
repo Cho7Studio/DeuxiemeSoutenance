@@ -43,3 +43,8 @@ function Combat()
 {
 	Application.LoadLevel("MenuCombat");
 }
+
+function Option()
+{
+	Application.LoadLevel("Option");
+}

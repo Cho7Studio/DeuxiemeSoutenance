@@ -1,12 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\colors\MES SCRIPTS\bouchecible.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Inventory\Scripts\Items\ItemEffect.js">
     <Files>
-      <File FileName="Assets\colors\MES SCRIPTS\perenoelIA.cs" Line="50" Column="53" />
-      <File FileName="Assets\colors\MES SCRIPTS\BossAI.cs" Line="38" Column="2" />
-      <File FileName="Assets\colors\MES SCRIPTS\perenoelhealth.cs" Line="30" Column="9" />
-      <File FileName="Assets\colors\MES SCRIPTS\bouchecible.cs" Line="15" Column="4" />
-      <File FileName="Assets\colors\MES SCRIPTS\BossHealth.cs" Line="29" Column="2" />
+      <File FileName="Assets\colors\MES SCRIPTS\LookAtAI.js" Line="17" Column="60" />
+      <File FileName="Assets\Inventory\Scripts\Items\ItemEffect.js" Line="34" Column="54" />
+      <File FileName="Assets\colors\MES SCRIPTS\apparitionBoss.cs" Line="8" Column="27" />
+      <File FileName="Assets\mus.cs" Line="19" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -2,15 +2,20 @@
 using System.Collections;
 
 public class perenoelhealth : MonoBehaviour {
-	private bool activation, once;
+	private bool activation, once, mortt;
 	float time;
 	public float Health = 1000f;
+	public AudioSource source;
+	public AudioClip mort;
 	private perenoelIA scrip;
+	private Fin rock;
 
 	// Use this for initialization
 	void Start () 
 	{
+		rock = GameObject.FindGameObjectWithTag ("rock").GetComponent<Fin> ();
 		once = true;
+		mortt = true;
 		activation = true;
 		scrip = gameObject.GetComponent<perenoelIA> ();
 		gameObject.GetComponentInChildren<SkinnedMeshRenderer> ().enabled = false;
@@ -34,14 +39,19 @@ public class perenoelhealth : MonoBehaviour {
 		if(Health <= 0)
 		{
 			GameObject.Find ("creature1").GetComponent<perenoelIA> ().enabled = false;
-			gameObject.GetComponent<Animation> ().Play ("Die");
 			Dead ();
 		}
 	}
 
 	void Dead()
 	{
-		Destroy (gameObject,60f);
+		if (mortt) {
+			mortt = false;
+			gameObject.GetComponent<Animation> ().Play ("Die");
+			source.PlayOneShot (mort);
+			Destroy (gameObject,60f);
+			StartCoroutine (rockk());
+		}
 	}
 
 	void Update () 
@@ -56,5 +66,11 @@ public class perenoelhealth : MonoBehaviour {
 		{
 			scrip.ok = true;
 		}
+	}
+
+	IEnumerator rockk()
+	{
+		yield return new WaitForSeconds (15f);
+		rock.bouge = true;
 	}
 }

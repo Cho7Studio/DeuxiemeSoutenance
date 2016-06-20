@@ -16,7 +16,7 @@ public class ChargerNival : MonoBehaviour {
 
 	public void Niveau3()
 	{
-		SceneManager.LoadScene ("Scene2");
+		SceneManager.LoadScene ("Scene 2");
 	}
 
 	public void Niveau4()
@@ -26,7 +26,7 @@ public class ChargerNival : MonoBehaviour {
 
 	public void Niveau5()
 	{
-		SceneManager.LoadScene ("Scene 5");
+		SceneManager.LoadScene ("Niveau 5");
 	}
 
 	public void MainMenu()

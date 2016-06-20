@@ -12,6 +12,10 @@ var gravity : float = 20.0;
 private var MoveDirection : Vector3 = Vector3.zero;
 
 
+function Awake()
+{
+	Target = GameObject.FindGameObjectWithTag("pv").transform;
+}
 
 function Update ()
 {

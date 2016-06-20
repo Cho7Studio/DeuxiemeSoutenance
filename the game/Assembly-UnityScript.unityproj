@@ -75,7 +75,6 @@
      <Compile Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\Vignetting.js" />
      <Compile Include="Assets\colors\MES SCRIPTS\AdvancedAI.js" />
      <Compile Include="Assets\colors\MES SCRIPTS\DestroyBullet.js" />
-     <Compile Include="Assets\colors\MES SCRIPTS\EnemyHealth.js" />
      <Compile Include="Assets\colors\MES SCRIPTS\GameOver.js" />
      <Compile Include="Assets\colors\MES SCRIPTS\LockRotations.js" />
      <Compile Include="Assets\colors\MES SCRIPTS\LookAtAI.js" />
@@ -149,6 +148,7 @@
      <None Include="Assets\Old Armchair\ReadMe.txt" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
      <None Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
      <None Include="Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
  <Reference Include="UnityEngine.UI">

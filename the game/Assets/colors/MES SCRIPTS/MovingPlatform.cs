@@ -33,14 +33,6 @@ public class MovingPlatform : MonoBehaviour
 		}
 	}
 
-	/*void OnDrawGizmos()
-	{
-		Gizmos.color = Color.green;
-		Gizmos.DrawWireCube(startTransform.position, platform.localScale);
-
-		Gizmos.color = Color.red;
-		Gizmos.DrawWireCube(endTransform.position, platform.localScale);
-	}*/
 
 	void SetDestination(Transform dest)
 	{

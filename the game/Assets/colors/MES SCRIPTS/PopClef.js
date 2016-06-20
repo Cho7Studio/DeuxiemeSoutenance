@@ -7,6 +7,7 @@ private var showGUI : boolean = false;
 private var aramasser : boolean = true;
 
 
+
 function OnTriggerEnter(hit : Collider)
 {
 	if(hit.gameObject.tag == "Player")

@@ -99,9 +99,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
 		private void sendinfo(bool disc)
 		{
 			GameObject[] liste = GameObject.FindGameObjectsWithTag ("ennemi");
-			foreach (GameObject ennemi in liste) 
-			{
-				ennemi.SendMessage ("discretions", disc);
+			if (liste.Length != 0) {
+				foreach (GameObject ennemi in liste) 
+				{
+					ennemi.SendMessage ("discretions", disc);
+				}
 			}
 		}
 
