@@ -53,6 +53,9 @@ public class PlayerStatCTF : NetworkBehaviour
 			GUI.DrawTexture (new Rect (10, 10, HpLenght, 10), HpTexture);
 		}
 		GUI.Label(new Rect(Screen.width-400, 15, 150, 30), "Joueur de l'équipe : " + equipe, InstructionBoxSkin);
+		if (haveDrap) {
+		GUI.Label(new Rect(Screen.width-400, 50, 150, 30), "Vous avez la chaussette", InstructionBoxSkin);
+		}
 	}
 
 	public void ApplyDammage (int TheDammage)

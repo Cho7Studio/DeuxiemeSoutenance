@@ -18,6 +18,10 @@ public class Chaussette : NetworkBehaviour {
 		{
 			ramassable = true;
 			player = hit.gameObject;
+			foreach (MeshRenderer it in gameObject.GetComponentsInChildren<MeshRenderer>()) 
+			{
+				it.enabled = false;
+			}
 			RpcChaussette ();
 		}
 	}
@@ -29,7 +33,9 @@ public class Chaussette : NetworkBehaviour {
 	{
 		player.GetComponent<PlayerStatCTF>().haveDrap = true;
 		Debug.Log ("hohohoho");
-		Destroy (gameObject);
+
+		GameObject.Find ("Manager").GetComponent<CPFmulti> ().CmdDes(this.gameObject);
 	}
+		
 
 }

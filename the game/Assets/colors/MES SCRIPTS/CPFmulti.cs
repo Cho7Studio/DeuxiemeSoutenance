@@ -69,4 +69,10 @@ public class CPFmulti : NetworkBehaviour {
 	{
 		Time.timeScale = 0f;
 	}
+
+	[Command]
+	public void CmdDes(GameObject ob)
+	{
+		Destroy (ob);
+	}
 }
