@@ -91,7 +91,7 @@ public class perenoelIA : MonoBehaviour {
 	}
 		
 
-	IEnumerator attack()
+	public IEnumerator attack()
 	{
 		lance = true;
 		timeatta = Time.time;
@@ -114,5 +114,10 @@ public class perenoelIA : MonoBehaviour {
 			gameObject.GetComponent<Animation>().Play("Attack1");
 			Instantiate (particule,init.position,init.rotation);
 		}
+	}
+
+	public void st()
+	{
+		gameObject.GetComponent<Animation> ().Stop ();
 	}
 }

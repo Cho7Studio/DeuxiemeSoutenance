@@ -12,6 +12,8 @@ public class IA : MonoBehaviour {
 	public float Damping = 6.0f;
 	public float attackRepeatTime = 1f;
 	public bool discret = false;
+	public bool see;
+	public float t;
 
 	private PlayerStat playe;
 	public int TheDammage = 40;
@@ -26,6 +28,8 @@ public class IA : MonoBehaviour {
 
 	void Start ()
 	{
+		t = Time.time;
+		see = false;
 		playe = GameObject.FindGameObjectWithTag ("pv").GetComponent<PlayerStat> ();		
 		Target = GameObject.FindGameObjectWithTag("pv").transform;
 		attackTime = Time.time;
@@ -42,23 +46,32 @@ public class IA : MonoBehaviour {
 	{
 		Distance = Vector3.Distance(Target.position, transform.position);
 
-		if(!discret)
+		if(!discret || see)
 		{
 			if (Distance < lookAtDistance)
 			{
+				if (!see) {
+					see = true;
+					t = Time.time;
+				}
 				lookAt();
 			}
 
 			if (Distance < attackRange)
 			{
+				
 				attack();
 			}
 			else if (Distance < chaseRange)
 			{
+				
 				chase ();
 			}
 		} else {
 			gameObject.GetComponent<Animation> ().Play ("idle");
+		}
+		if (see && Time.time - t > 3f) {
+			see = false;
 		}
 	}
 

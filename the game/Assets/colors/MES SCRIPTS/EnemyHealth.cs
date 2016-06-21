@@ -25,7 +25,8 @@ public class EnemyHealth : MonoBehaviour {
 	public void ApplyDammage (int TheDammage)
 	{
 		Health -= TheDammage;
-
+		gameObject.GetComponent<IA> ().see = true;
+		gameObject.GetComponent<IA> ().t = Time.time;
 		if(Health <= 0)
 		{
 			gameObject.GetComponent<IA> ().enabled = false;

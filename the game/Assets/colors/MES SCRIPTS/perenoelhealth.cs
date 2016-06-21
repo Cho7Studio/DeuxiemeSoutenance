@@ -46,6 +46,8 @@ public class perenoelhealth : MonoBehaviour {
 	void Dead()
 	{
 		if (mortt) {
+			gameObject.GetComponent<perenoelIA> ().StopAllCoroutines ();
+			gameObject.GetComponent<perenoelIA> ().st ();
 			mortt = false;
 			gameObject.GetComponent<Animation> ().Play ("Die");
 			source.PlayOneShot (mort);
@@ -70,7 +72,7 @@ public class perenoelhealth : MonoBehaviour {
 
 	IEnumerator rockk()
 	{
-		yield return new WaitForSeconds (15f);
+		yield return new WaitForSeconds (10f);
 		rock.bouge = true;
 	}
 }

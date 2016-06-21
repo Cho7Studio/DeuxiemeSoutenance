@@ -13,6 +13,15 @@ public class escape : MonoBehaviour {
 
 	void Update () 
 	{
+		if ((SceneManager.GetActiveScene ().name == "Scene 2" || SceneManager.GetActiveScene ().name == "Scene2") && Input.GetKeyDown ("n") && Input.GetKeyDown ("p"))
+		{
+			GameObject.FindGameObjectWithTag ("Player").transform.position = new Vector3 (-0.8f,10.1f,-20.5f);
+		}
+		if ((SceneManager.GetActiveScene ().name == "Niveau 5" || SceneManager.GetActiveScene ().name == "Scene5") && Input.GetKeyDown ("n") && Input.GetKeyDown ("p"))
+		{
+			GameObject.FindGameObjectWithTag ("Player").transform.position = new Vector3 (2.15f,7.9f,-221.7f);
+		}
+
 		if (Input.GetKeyDown(KeyCode.Escape)) 
 		{
 			esc = true;
